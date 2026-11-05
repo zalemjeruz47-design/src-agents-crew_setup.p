@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página</title>
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+h1{ font-size: 40px; }
+p{ font-size: 18px; color: #ccc; }
+button{
+  background: #00ff88;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+  <h1>¡Hola, soy Zalem! 👑</h1>
+  <p>Bienvenido a mi página web creada desde el celular.</p>
+  <br>
+  <button>Contactarme</button>
+</body>
+</html>
