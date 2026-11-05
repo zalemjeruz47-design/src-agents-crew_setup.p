@@ -86,3 +86,91 @@ button{
   <button>Contactarme</button>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRINITY</title>
+<style>
+body{
+margin:0;
+font-family: Arial, sans-serif;
+background:#111;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+h1{
+font-size:50px;
+letter-spacing:5px;
+}
+p{
+color:#ccc;
+font-size:18px;
+}
+.caja{
+background:#1e1e1e;
+padding:25px;
+border-radius:15px;
+max-width:500px;
+margin:20px auto;
+}
+.boton{
+display:inline-block;
+background:white;
+color:black;
+padding:12px 25px;
+border-radius:30px;
+font-weight:bold;
+text-decoration:none;
+margin-top:15px;
+}
+</style>
+</head>
+<body>
+<h1>TRINITY</h1>
+<p>Bienvenido a mi proyecto privado.</p>
+<div class="caja">
+<h2>Mi Proyecto</h2>
+<p>Este es mi espacio. Seguro y sin compartir datos.</p>
+<a class="boton" href="#">Entrar</a>
+</div>
+<p style="font-size:13px; color:#777;">© 2026 TRINITY - Todos los derechos reservados</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página</title>
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+h1{ font-size: 40px; }
+p{ font-size: 18px; color: #ccc; }
+button{
+  background: #00ff88;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+  <h1>¡Hola, soy Zalem! 👑</h1>
+  <p>Bienvenido a mi página web creada desde el celular.</p>
+  <br>
+  <button>Contactarme</button>
+</body>
+</html>
