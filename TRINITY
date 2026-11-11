@@ -1,0 +1,53 @@
+Welcome to Termux
+
+Docs:       https://doc.termux.com
+Community:  https://community.termux.com
+
+Working with packages:
+ - Search:  pkg search <query>
+ - Install: pkg install <package>
+ - Upgrade: pkg upgrade
+
+Report issues at https://bugs.termux.com
+~/trinity-bank-shield $ pkg update && pkg install unzip -y
+Hit:1 https://termux.net stable InRelease
+Get:2 https://tur.kcubeterm.com tur-packages InRelease
+Get:3 https://tur.kcubeterm.com tur-packages/tur aarch64 Packages [297 kB]
+Get:4 https://tur.kcubeterm.com tur-packages/tur-on-device aarch64 Packages [25.9 kB]
+Fetched 341 kB in 2s (202 kB/s)
+All packages are up to date.
+unzip is already the newest version (6.0-10).
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+~/trinity-bank-shield $ cd ~/storage/downloads
+~/storage/downloads $ unzip ComisariaBot_V3_0_Termux.zip
+Archive:  ComisariaBot_V3_0_Termux.zip
+  inflating: ComisariaBot_V3_0/README.md
+  inflating: ComisariaBot_V3_0/install_termux.sh
+  inflating: ComisariaBot_V3_0/run.sh
+  inflating: ComisariaBot_V3_0/.env.example
+  inflating: ComisariaBot_V3_0/app.py
+  inflating: ComisariaBot_V3_0/requirements.txt
+  inflating: ComisariaBot_V3_0/templates/index.html
+  inflating: ComisariaBot_V3_0/static/app.js
+  inflating: ComisariaBot_V3_0/static/styles.css
+~/storage/downloads $ cd ComisariaBot_V3_0
+~/.../downloads/ComisariaBot_V3_0 $ ls
+README.md          run.sh
+app.py             static
+install_termux.sh  templates
+requirements.txt
+~/.../downloads/ComisariaBot_V3_0 $ chmod +x install_termux.sh
+~/.../downloads/ComisariaBot_V3_0 $ ./install_termux.sh
+bash: ./install_termux.sh: Permission denied
+~/.../downloads/ComisariaBot_V3_0 $ bash install_termux.sh
+Hit:1 https://termux.net stable InRelease
+Get:2 https://tur.kcubeterm.com tur-packages InRelease
+Fetched 18.4 kB in 1s (19.8 kB/s)
+All packages are up to date.
+python is already the newest version (3.13.13-1).
+unzip is already the newest version (6.0-10).
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+Error: [Errno 13] Permission denied: 'lib' -> '/storage/emulated/0/Download/ComisariaBot_V3_0/.venv/lib64'
+~/.../downloads/ComisariaBot_V3_0
